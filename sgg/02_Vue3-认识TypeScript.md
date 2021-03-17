@@ -1,4 +1,3 @@
-# 02_Vue3-认识TypeScript.
 
 # 1. 初识 TypeScript
 
