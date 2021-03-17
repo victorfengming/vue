@@ -1,0 +1,681 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vue中Html和Markdown互相转换 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Vue中input框自动聚焦/" />
+    
+    
+    <link rel="prev" href="../VueX/Vuex学习指南-实现一个计数器/" />
+    
+
+    
+        <link rel="shortcut icon" href='../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Axios中拦截器的使用/">
+            
+                <a href="../Axios中拦截器的使用/">
+            
+                    
+                    Axios中拦截器的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../el-select因为绑定的值为整数而无法默认选择/">
+            
+                <a href="../el-select因为绑定的值为整数而无法默认选择/">
+            
+                    
+                    el-select因为绑定的值为整数而无法默认选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ElementUI中Upload如何批量上传/">
+            
+                <a href="../ElementUI中Upload如何批量上传/">
+            
+                    
+                    ElementUI中Upload如何批量上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../VueX/Vuex学习指南-实现一个计数器/">
+            
+                <a href="../VueX/Vuex学习指南-实现一个计数器/">
+            
+                    
+                    VueX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.6" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Vue中Html和Markdown互相转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../Vue中input框自动聚焦/">
+            
+                <a href="../Vue中input框自动聚焦/">
+            
+                    
+                    Vue中input框自动聚焦
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                <a href="../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                    
+                    Vue中使用Vue-cropper进行图片裁剪
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Vue中对数组变化监听/">
+            
+                <a href="../Vue中对数组变化监听/">
+            
+                    
+                    Vue中对数组变化监听
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Vue中防止XSS脚本攻击/">
+            
+                <a href="../Vue中防止XSS脚本攻击/">
+            
+                    
+                    Vue中防止XSS脚本攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../Vue使用Echarts制作一个文章贡献度表/">
+            
+                <a href="../Vue使用Echarts制作一个文章贡献度表/">
+            
+                    
+                    Vue使用Echarts制作一个文章贡献度表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Vue使用vue-count-to插件对数字显示美化/">
+            
+                <a href="../Vue使用vue-count-to插件对数字显示美化/">
+            
+                    
+                    Vue使用vue-count-to插件对数字显示美化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../Vue内容页面SEO优化方案/">
+            
+                <a href="../Vue内容页面SEO优化方案/">
+            
+                    
+                    Vue内容页面SEO优化方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../Vue制作一个评论模块/">
+            
+                <a href="../Vue制作一个评论模块/">
+            
+                    
+                    Vue制作一个评论模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../Vue动态计算Table表格的高度/">
+            
+                <a href="../Vue动态计算Table表格的高度/">
+            
+                    
+                    Vue动态计算Table表格的高度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../Vue对Element中的e-tag添加@click事件无效/">
+            
+                <a href="../Vue对Element中的e-tag添加@click事件无效/">
+            
+                    
+                    Vue对Element中的e-tag添加@click事件无效
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../vue打包后的dist文件如何启动测试/">
+            
+                <a href="../vue打包后的dist文件如何启动测试/">
+            
+                    
+                    vue打包后的dist文件如何启动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                <a href="../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                    
+                    Vue记一次诡异的错误Uncaught_TypeError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../Vue项目中引入markdown编辑器vditor/">
+            
+                <a href="../Vue项目中引入markdown编辑器vditor/">
+            
+                    
+                    Vue项目中引入markdown编辑器vditor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../Vue项目使用阿里巴巴矢量图标库/">
+            
+                <a href="../Vue项目使用阿里巴巴矢量图标库/">
+            
+                    
+                    Vue项目使用阿里巴巴矢量图标库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../Vue项目使用预渲染解决SEO优化问题/">
+            
+                <a href="../Vue项目使用预渲染解决SEO优化问题/">
+            
+                    
+                    Vue项目使用预渲染解决SEO优化问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../Vue项目如何关闭Eslint校验/">
+            
+                <a href="../Vue项目如何关闭Eslint校验/">
+            
+                    
+                    Vue项目如何关闭Eslint校验
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../Vue项目引入CDN加速/">
+            
+                <a href="../Vue项目引入CDN加速/">
+            
+                    
+                    Vue项目引入CDN加速
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../Vue项目引入侧边导航栏/">
+            
+                <a href="../Vue项目引入侧边导航栏/">
+            
+                    
+                    Vue项目引入侧边导航栏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../Vue项目打包后动态配置解决方案/">
+            
+                <a href="../Vue项目打包后动态配置解决方案/">
+            
+                    
+                    Vue项目打包后动态配置解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../使用Vuex进行两个页面逻辑交互/">
+            
+                <a href="../使用Vuex进行两个页面逻辑交互/">
+            
+                    
+                    使用Vuex进行两个页面逻辑交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../解决Vue项目打包后js文件过大的问题/">
+            
+                <a href="../解决Vue项目打包后js文件过大的问题/">
+            
+                    
+                    解决Vue项目打包后js文件过大的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Vue中Html和Markdown互相转换</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#vue&#x4E2D;html&#x548C;markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;"><b></b>Vue&#x4E2D;Html&#x548C;Markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;</a></li><ul><li><span class="title-icon "></span><a href="#&#x524D;&#x8A00;"><b></b>&#x524D;&#x8A00;</a></li><li><span class="title-icon "></span><a href="#&#x524D;&#x53F0;&#x5904;&#x7406;"><b></b>&#x524D;&#x53F0;&#x5904;&#x7406;</a></li><ul><li><span class="title-icon "></span><a href="#markdowntohtml"><b></b>MarkdownToHtml</a></li><li><span class="title-icon "></span><a href="#htmltomarkdown"><b></b>HtmlToMarkdown</a></li></ul><li><span class="title-icon "></span><a href="#&#x540E;&#x7AEF;&#x5904;&#x7406;"><b></b>&#x540E;&#x7AEF;&#x5904;&#x7406;</a></li><ul><li><span class="title-icon "></span><a href="#&#x5F15;&#x5165;&#x4F9D;&#x8D56;"><b></b>&#x5F15;&#x5165;&#x4F9D;&#x8D56;</a></li><li><span class="title-icon "></span><a href="#markdowntohtml_1"><b></b>MarkdownToHtml</a></li><li><span class="title-icon "></span><a href="#htmltomarkdown_1"><b></b>HtmlToMarkdown</a></li></ul></ul></ul></div><a href="#vue&#x4E2D;html&#x548C;markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="vue&#x4E2D;html&#x548C;markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;"><a name="vue&#x4E2D;html&#x548C;markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;" class="anchor-navigation-ex-anchor" href="#vue&#x4E2D;html&#x548C;markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;"><i class="fa fa-link" aria-hidden="true"></i></a>Vue&#x4E2D;Html&#x548C;Markdown&#x4E92;&#x76F8;&#x8F6C;&#x6362;</h1>
+<h2 id="&#x524D;&#x8A00;"><a name="&#x524D;&#x8A00;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x524D;&#x8A00;</h2>
+<p>&#x6700;&#x8FD1;&#x60F3;&#x5B9E;&#x73B0;&#x7684;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#xFF0C;&#x5C31;&#x662F;&#x5C06;&#x7CFB;&#x7EDF;&#x4E2D;&#x7684;&#x535A;&#x5BA2;&#x8FDB;&#x884C;&#x5BFC;&#x51FA;&#x6210;Markdown&#x683C;&#x5F0F;&#xFF0C;&#x540E;&#x9762;&#x7ECF;&#x8FC7;&#x4E86;&#x8C03;&#x7814;&#x53D1;&#x73B0;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#x80FD;&#x591F;&#x6EE1;&#x8DB3;&#x9700;&#x6C42;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;Java&#x540E;&#x53F0;&#x4E2D;&#x5C06;HTML&#x8F6C;&#x6362;&#x6210;Markdown&#xFF0C; &#x7136;&#x540E;&#x5BFC;&#x51FA;&#x3002;&#x7B2C;&#x4E8C;&#x79CD;&#x65B9;&#x5F0F;&#x662F;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x5C06;Html&#x8F6C;&#x6362;&#x6210;Markdown</p>
+<h2 id="&#x524D;&#x53F0;&#x5904;&#x7406;"><a name="&#x524D;&#x53F0;&#x5904;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x53F0;&#x5904;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x524D;&#x53F0;&#x5904;&#x7406;</h2>
+<h3 id="markdowntohtml"><a name="markdowntohtml" class="anchor-navigation-ex-anchor" href="#markdowntohtml"><i class="fa fa-link" aria-hidden="true"></i></a>MarkdownToHtml</h3>
+<h4 id="&#x5B89;&#x88C5;"><a name="&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B89;&#x88C5;</h4>
+<p>&#x524D;&#x53F0;&#x5904;&#x7406;Markdown&#x8F6C;&#x6362;&#x6210;Html&#xFF0C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x4E00;&#x6B3E;Vue&#x7EC4;&#x4EF6; <code>showdown</code>&#xFF1A;<a href="https://github.com/showdownjs/showdown" target="_blank">&#x70B9;&#x6211;&#x4F20;&#x9001;</a></p>
+<p>&#x524D;&#x7AEF;&#x5904;&#x7406;&#x7684;&#x597D;&#x5904;&#x662F;&#x4E0D;&#x9700;&#x8981;&#x5360;&#x7528;&#x540E;&#x7AEF;&#x7684;&#x8BA1;&#x7B97;&#x8D44;&#x6E90;&#xFF0C;&#x56E0;&#x6B64;&#x9996;&#x9009;&#x662F;&#x8BA9;&#x5BA2;&#x6237;&#x7AEF;&#x505A;&#x8FD9;&#x79CD;&#x5904;&#x7406;&#x7684;&#x4E8B;&#x60C5;</p>
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5B89;&#x88C5;&#x4F9D;&#x8D56;</p>
+<pre><code>npm install showdown --save
+</code></pre><p>&#x6216;&#x8005;&#x4F7F;&#x7528;CDN</p>
+<pre><code> https://unpkg.com/showdown/dist/showdown.min.js
+</code></pre><h4 id="markdown-&#x8F6C;&#x6210;-html"><a name="markdown-&#x8F6C;&#x6210;-html" class="anchor-navigation-ex-anchor" href="#markdown-&#x8F6C;&#x6210;-html"><i class="fa fa-link" aria-hidden="true"></i></a>Markdown &#x8F6C;&#x6210; Html</h4>
+<pre><code>var showdown  = require(&apos;showdown&apos;),
+    converter = new showdown.Converter(),
+    text      = &apos;# hello, markdown!&apos;,
+    html      = converter.makeHtml(text);
+</code></pre><h3 id="htmltomarkdown"><a name="htmltomarkdown" class="anchor-navigation-ex-anchor" href="#htmltomarkdown"><i class="fa fa-link" aria-hidden="true"></i></a>HtmlToMarkdown</h3>
+<h4 id="&#x5B89;&#x88C5;_1"><a name="&#x5B89;&#x88C5;_1" class="anchor-navigation-ex-anchor" href="#&#x5B89;&#x88C5;_1"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5B89;&#x88C5;</h4>
+<p>&#x524D;&#x53F0;&#x5904;&#x7406;Html&#x8F6C;&#x6362;&#x6210;Markdown&#xFF0C;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x4E00;&#x6B3E;Vue&#x7EC4;&#x4EF6; <code>turndown</code>&#xFF1A;<a href="https://github.com/domchristie/turndown" target="_blank">&#x70B9;&#x6211;&#x4F20;&#x9001;</a></p>
+<p>&#x9996;&#x5148;&#x5B89;&#x88C5;&#x4F9D;&#x8D56;</p>
+<pre><code>npm install turndown --save
+</code></pre><p>&#x6216;&#x4F7F;&#x7528;CDN&#x52A0;&#x901F;</p>
+<pre><code>&lt;script src=&quot;https://unpkg.com/turndown/dist/turndown.js&quot;&gt;&lt;/script&gt;
+</code></pre><h4 id="&#x4F7F;&#x7528;"><a name="&#x4F7F;&#x7528;" class="anchor-navigation-ex-anchor" href="#&#x4F7F;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F7F;&#x7528;</h4>
+<pre><code>// For Node.js
+var TurndownService = require(&apos;turndown&apos;)
+var turndownService = new TurndownService()
+var markdown = turndownService.turndown(&apos;&lt;h1&gt;Hello world!&lt;/h1&gt;&apos;)
+</code></pre><h2 id="&#x540E;&#x7AEF;&#x5904;&#x7406;"><a name="&#x540E;&#x7AEF;&#x5904;&#x7406;" class="anchor-navigation-ex-anchor" href="#&#x540E;&#x7AEF;&#x5904;&#x7406;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x540E;&#x7AEF;&#x5904;&#x7406;</h2>
+<p>&#x540E;&#x7AEF;&#x5904;&#x7406;&#x4F7F;&#x7528;&#x7684;&#x662F; <code>flexmark-java</code> &#xFF1A;<a href="https://github.com/vsch/flexmark-java" target="_blank">&#x70B9;&#x6211;&#x4F20;&#x9001;</a></p>
+<h3 id="&#x5F15;&#x5165;&#x4F9D;&#x8D56;"><a name="&#x5F15;&#x5165;&#x4F9D;&#x8D56;" class="anchor-navigation-ex-anchor" href="#&#x5F15;&#x5165;&#x4F9D;&#x8D56;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5F15;&#x5165;&#x4F9D;&#x8D56;</h3>
+<pre><code>&lt;!--Markdown &#x8F6C; Html--&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.vladsch.flexmark&lt;/groupId&gt;
+    &lt;artifactId&gt;flexmark-all&lt;/artifactId&gt;
+    &lt;version&gt;${flexmark.version}&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre><h3 id="markdowntohtml_1"><a name="markdowntohtml_1" class="anchor-navigation-ex-anchor" href="#markdowntohtml_1"><i class="fa fa-link" aria-hidden="true"></i></a>MarkdownToHtml</h3>
+<pre><code>    /**
+     * Markdown&#x8F6C;Html
+     * @param markdown
+     * @return
+     */
+    public static String markdownToHtml(String markdown) {
+        MutableDataSet options = new MutableDataSet();
+        Parser parser = Parser.builder(options).build();
+        HtmlRenderer renderer = HtmlRenderer.builder(options).build();
+        Node document = parser.parse(markdown);
+        String html = renderer.render(document);
+        return html;
+    }
+</code></pre><h3 id="htmltomarkdown_1"><a name="htmltomarkdown_1" class="anchor-navigation-ex-anchor" href="#htmltomarkdown_1"><i class="fa fa-link" aria-hidden="true"></i></a>HtmlToMarkdown</h3>
+<pre><code>    /**
+     * Html &#x8F6C; Markdown
+     * @param html
+     * @return
+     */
+    public static String htmlToMarkdown(String html) {
+        MutableDataSet options = new MutableDataSet();
+        String markdown = FlexmarkHtmlConverter.builder(options).build().convert(html);
+        System.out.println(markdown);
+        return markdown;
+    }
+</code></pre></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../VueX/Vuex学习指南-实现一个计数器/" class="navigation navigation-prev " aria-label="Previous page: VueX">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Vue中input框自动聚焦/" class="navigation navigation-next " aria-label="Next page: Vue中input框自动聚焦">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vue中Html和Markdown互相转换","level":"1.6","depth":1,"next":{"title":"Vue中input框自动聚焦","level":"1.7","depth":1,"path":"Vue中input框自动聚焦/README.md","ref":"Vue中input框自动聚焦/README.md","articles":[]},"previous":{"title":"VueX","level":"1.5","depth":1,"path":"VueX/Vuex学习指南-实现一个计数器/README.md","ref":"VueX/Vuex学习指南-实现一个计数器/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["hide-element","chapter-fold","expandable-chapters","favicon","lightbox","splitter","-lunr","pageview-count","ancre-navigation"],"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/avator.png.icon.ico","bookmark":"./img/avator.png.icon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Vue中Html和Markdown互相转换/README.md","mtime":"2021-03-17T00:39:21.225Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-17T05:18:43.882Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

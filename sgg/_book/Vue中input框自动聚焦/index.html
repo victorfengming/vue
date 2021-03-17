@@ -1,0 +1,659 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Vue中input框自动聚焦 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../Vue中使用Vue-cropper进行图片裁剪/" />
+    
+    
+    <link rel="prev" href="../Vue中Html和Markdown互相转换/" />
+    
+
+    
+        <link rel="shortcut icon" href='../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../Axios中拦截器的使用/">
+            
+                <a href="../Axios中拦截器的使用/">
+            
+                    
+                    Axios中拦截器的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../el-select因为绑定的值为整数而无法默认选择/">
+            
+                <a href="../el-select因为绑定的值为整数而无法默认选择/">
+            
+                    
+                    el-select因为绑定的值为整数而无法默认选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../ElementUI中Upload如何批量上传/">
+            
+                <a href="../ElementUI中Upload如何批量上传/">
+            
+                    
+                    ElementUI中Upload如何批量上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../VueX/Vuex学习指南-实现一个计数器/">
+            
+                <a href="../VueX/Vuex学习指南-实现一个计数器/">
+            
+                    
+                    VueX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../Vue中Html和Markdown互相转换/">
+            
+                <a href="../Vue中Html和Markdown互相转换/">
+            
+                    
+                    Vue中Html和Markdown互相转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.7" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Vue中input框自动聚焦
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                <a href="../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                    
+                    Vue中使用Vue-cropper进行图片裁剪
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../Vue中对数组变化监听/">
+            
+                <a href="../Vue中对数组变化监听/">
+            
+                    
+                    Vue中对数组变化监听
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../Vue中防止XSS脚本攻击/">
+            
+                <a href="../Vue中防止XSS脚本攻击/">
+            
+                    
+                    Vue中防止XSS脚本攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../Vue使用Echarts制作一个文章贡献度表/">
+            
+                <a href="../Vue使用Echarts制作一个文章贡献度表/">
+            
+                    
+                    Vue使用Echarts制作一个文章贡献度表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../Vue使用vue-count-to插件对数字显示美化/">
+            
+                <a href="../Vue使用vue-count-to插件对数字显示美化/">
+            
+                    
+                    Vue使用vue-count-to插件对数字显示美化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../Vue内容页面SEO优化方案/">
+            
+                <a href="../Vue内容页面SEO优化方案/">
+            
+                    
+                    Vue内容页面SEO优化方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../Vue制作一个评论模块/">
+            
+                <a href="../Vue制作一个评论模块/">
+            
+                    
+                    Vue制作一个评论模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../Vue动态计算Table表格的高度/">
+            
+                <a href="../Vue动态计算Table表格的高度/">
+            
+                    
+                    Vue动态计算Table表格的高度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../Vue对Element中的e-tag添加@click事件无效/">
+            
+                <a href="../Vue对Element中的e-tag添加@click事件无效/">
+            
+                    
+                    Vue对Element中的e-tag添加@click事件无效
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../vue打包后的dist文件如何启动测试/">
+            
+                <a href="../vue打包后的dist文件如何启动测试/">
+            
+                    
+                    vue打包后的dist文件如何启动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                <a href="../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                    
+                    Vue记一次诡异的错误Uncaught_TypeError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../Vue项目中引入markdown编辑器vditor/">
+            
+                <a href="../Vue项目中引入markdown编辑器vditor/">
+            
+                    
+                    Vue项目中引入markdown编辑器vditor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../Vue项目使用阿里巴巴矢量图标库/">
+            
+                <a href="../Vue项目使用阿里巴巴矢量图标库/">
+            
+                    
+                    Vue项目使用阿里巴巴矢量图标库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../Vue项目使用预渲染解决SEO优化问题/">
+            
+                <a href="../Vue项目使用预渲染解决SEO优化问题/">
+            
+                    
+                    Vue项目使用预渲染解决SEO优化问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../Vue项目如何关闭Eslint校验/">
+            
+                <a href="../Vue项目如何关闭Eslint校验/">
+            
+                    
+                    Vue项目如何关闭Eslint校验
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../Vue项目引入CDN加速/">
+            
+                <a href="../Vue项目引入CDN加速/">
+            
+                    
+                    Vue项目引入CDN加速
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../Vue项目引入侧边导航栏/">
+            
+                <a href="../Vue项目引入侧边导航栏/">
+            
+                    
+                    Vue项目引入侧边导航栏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../Vue项目打包后动态配置解决方案/">
+            
+                <a href="../Vue项目打包后动态配置解决方案/">
+            
+                    
+                    Vue项目打包后动态配置解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../使用Vuex进行两个页面逻辑交互/">
+            
+                <a href="../使用Vuex进行两个页面逻辑交互/">
+            
+                    
+                    使用Vuex进行两个页面逻辑交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../解决Vue项目打包后js文件过大的问题/">
+            
+                <a href="../解决Vue项目打包后js文件过大的问题/">
+            
+                    
+                    解决Vue项目打包后js文件过大的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Vue中input框自动聚焦</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><span class="title-icon "></span><a href="#vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;"><b></b>Vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;</a></li><ul><li><span class="title-icon "></span><a href="#&#x524D;&#x8A00;"><b></b>&#x524D;&#x8A00;</a></li><li><span class="title-icon "></span><a href="#&#x89E3;&#x51B3;&#x65B9;&#x6848;"><b></b>&#x89E3;&#x51B3;&#x65B9;&#x6848;</a></li></ul></ul></div><a href="#vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;"><a name="vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;" class="anchor-navigation-ex-anchor" href="#vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;"><i class="fa fa-link" aria-hidden="true"></i></a>Vue&#x4E2D;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;</h1>
+<h2 id="&#x524D;&#x8A00;"><a name="&#x524D;&#x8A00;" class="anchor-navigation-ex-anchor" href="#&#x524D;&#x8A00;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x524D;&#x8A00;</h2>
+<p>&#x4ECA;&#x5929;&#x5728;&#x8611;&#x83C7;&#x535A;&#x5BA2;&#x767B;&#x5F55;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x53D1;&#x73B0;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x56E0;&#x4E3A;&#x5728;input&#x7ED1;&#x5B9A;&#x4E86;&#x952E;&#x76D8;&#x4E8B;&#x4EF6;&#xFF0C;&#x6309;&#x56DE;&#x8F66;&#x7684;&#x65F6;&#x5019;&#x5C31;&#x89E6;&#x53D1;&#x767B;&#x5F55;&#x4E8B;&#x4EF6;&#xFF0C;&#x4F46;&#x662F;&#x56E0;&#x4E3A;Chrome&#x4F1A;&#x81EA;&#x52A8;&#x4FDD;&#x5B58;&#x5BC6;&#x7801;&#xFF0C;&#x6240;&#x4EE5;&#x4E5F;&#x5C31;&#x8BF4;&#x7B2C;&#x4E00;&#x6B21;&#x767B;&#x5F55;&#x7684;&#x65F6;&#x5019;&#x624D;&#x4F1A;&#x8F93;&#x5165;&#x8D26;&#x53F7;&#x548C;&#x5BC6;&#x7801;</p>
+<p>&#x6211;&#x4EEC;&#x6309;&#x56DE;&#x8F66;&#x4E8B;&#x4EF6;&#x540E;&#xFF0C;&#x5C31;&#x4F1A;&#x89E6;&#x53D1;&#x5BF9;&#x5E94;&#x7684;&#x65B9;&#x6CD5;</p>
+<h2 id="&#x89E3;&#x51B3;&#x65B9;&#x6848;"><a name="&#x89E3;&#x51B3;&#x65B9;&#x6848;" class="anchor-navigation-ex-anchor" href="#&#x89E3;&#x51B3;&#x65B9;&#x6848;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x89E3;&#x51B3;&#x65B9;&#x6848;</h2>
+<p>&#x5176;&#x5B9E;&#x89E3;&#x51B3;&#x7684;&#x65B9;&#x6848;&#x4E5F;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x5C31;&#x662F;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x5728;&#x8FDB;&#x5165;&#x767B;&#x5F55;&#x9875;&#x9762;&#x7684;&#x65F6;&#x5019;&#xFF0C;input&#x6846;&#x81EA;&#x52A8;&#x805A;&#x7126;&#xFF0C;&#x7136;&#x540E;&#x6211;&#x4EEC;&#x6309;&#x56DE;&#x8F66;&#x4E8B;&#x4EF6;&#x540E;&#xFF0C;&#x5C31;&#x4F1A;&#x89E6;&#x53D1;&#x5BF9;&#x5E94;&#x7684;&#x65B9;&#x6CD5;</p>
+<p>&#x5173;&#x4E8E;input&#x81EA;&#x52A8;&#x805A;&#x7126;&#x7684;&#x601D;&#x8DEF;&#xFF1A;</p>
+<ul>
+<li>&#x7ED9;&#x9700;&#x8981;&#x805A;&#x7126;&#x7684;input&#x8BBE;&#x7F6E;ref</li>
+</ul>
+<pre><code>        &lt;el-input
+          v-model=&quot;loginForm.username&quot;
+          ref=&quot;userNameInput&quot;
+          name=&quot;username&quot;
+          type=&quot;text&quot;
+          auto-complete=&quot;on&quot;
+          placeholder=&quot;username&quot;
+          @keyup.enter.native=&quot;handleLogin&quot;
+        /&gt;
+</code></pre><ul>
+<li>&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x805A;&#x7126;&#x7684;&#x65B9;&#x6CD5;</li>
+</ul>
+<p>this.$nextTick()&#x5C06;&#x56DE;&#x8C03;&#x5EF6;&#x8FDF;&#x5230;&#x4E0B;&#x6B21; DOM &#x66F4;&#x65B0;&#x5FAA;&#x73AF;&#x4E4B;&#x540E;&#x6267;&#x884C;&#x3002;&#x5728;&#x4FEE;&#x6539;&#x6570;&#x636E;&#x4E4B;&#x540E;&#x7ACB;&#x5373;&#x4F7F;&#x7528;&#x5B83;&#xFF0C;&#x7136;&#x540E;&#x7B49;&#x5F85; DOM &#x66F4;&#x65B0;</p>
+<pre><code>    inputFocus: function() {
+      this.$nextTick(x =&gt; {
+        this.$refs.userNameInput.focus()
+      })
+    },
+</code></pre><ul>
+<li>&#x5728;create&#x65B9;&#x6CD5;&#x4E2D;&#x8C03;&#x7528;</li>
+</ul>
+<pre><code>  created() {
+    this.inputFocus()
+  },
+</code></pre><p>&#x8FD9;&#x6837;&#x6BCF;&#x6B21;&#x52A0;&#x8F7D;&#x767B;&#x5F55;&#x9875;&#x9762;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C31;&#x4F1A;&#x81EA;&#x52A8;&#x5BF9;input&#x6846;&#x8FDB;&#x884C;&#x805A;&#x7126;&#x4E86;&#xFF0C;&#x7136;&#x540E;&#x53EA;&#x9700;&#x8981;&#x6309;&#x4E0B;&#x56DE;&#x8F66;&#xFF0C;&#x5373;&#x53EF;&#x767B;&#x5F55;&#x5230;&#x540E;&#x53F0;&#x7CFB;&#x7EDF;~</p>
+<p>&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x90FD;&#x77E5;&#x9053;&#xFF0C;vue&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;created&#xFF0C;&#x5728;&#x8C03;&#x7528;&#x7684;&#x65F6;&#x5019;&#xFF0C;Dom&#x8FD8;&#x6CA1;&#x6709;&#x8FDB;&#x884C;&#x4EFB;&#x4F55;&#x6E32;&#x67D3;&#xFF0C;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x76F4;&#x63A5;&#x6267;&#x884C; </p>
+<pre><code>this.$refs.userNameInput.focus()
+</code></pre><p>&#x8FD9;&#x4E2A;&#x4EE3;&#x7801;&#x7684;&#x8BDD;&#xFF0C;&#x662F;&#x6CA1;&#x6709;&#x6548;&#x679C;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x9700;&#x8981;&#x4F7F;&#x7528;this.$nextTick()&#xFF0C;&#x5C06;&#x5B83;&#x5EF6;&#x8FDF;&#x5230;&#x4E0B;&#x6B21;Dom&#x6E32;&#x67D3;&#x7684;&#x65F6;&#x5019;&#x6267;&#x884C;</p>
+<p>&#x4F46;&#x662F;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x5728;mounted&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6267;&#x884C;&#x7684;&#x8BDD;&#xFF0C;&#x56E0;&#x4E3A;&#x5F53;mounted&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x6267;&#x884C;&#x7684;&#x65F6;&#x5019;&#xFF0C;Dom&#x6811;&#x5DF2;&#x7ECF;&#x6E32;&#x67D3;&#x5B8C;&#x6BD5;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x83B7;&#x53D6;&#x5BF9;&#x5E94;&#x7684;dom&#x8FDB;&#x884C;&#x6E32;&#x67D3;&#xFF0C;&#x4E5F;&#x5C31;&#x4E0D;&#x9700;&#x8981;&#x4F7F;&#x7528;this.$nextTick()&#x65B9;&#x6CD5;&#x4E86;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x8FD8;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8FD9;&#x6837;&#x5199;</p>
+<pre><code>  mounted() {
+    this.$refs.userNameInput.focus()
+  },
+</code></pre></body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../Vue中Html和Markdown互相转换/" class="navigation navigation-prev " aria-label="Previous page: Vue中Html和Markdown互相转换">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../Vue中使用Vue-cropper进行图片裁剪/" class="navigation navigation-next " aria-label="Next page: Vue中使用Vue-cropper进行图片裁剪">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Vue中input框自动聚焦","level":"1.7","depth":1,"next":{"title":"Vue中使用Vue-cropper进行图片裁剪","level":"1.8","depth":1,"path":"Vue中使用Vue-cropper进行图片裁剪/README.md","ref":"Vue中使用Vue-cropper进行图片裁剪/README.md","articles":[]},"previous":{"title":"Vue中Html和Markdown互相转换","level":"1.6","depth":1,"path":"Vue中Html和Markdown互相转换/README.md","ref":"Vue中Html和Markdown互相转换/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["hide-element","chapter-fold","expandable-chapters","favicon","lightbox","splitter","-lunr","pageview-count","ancre-navigation"],"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/avator.png.icon.ico","bookmark":"./img/avator.png.icon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Vue中input框自动聚焦/README.md","mtime":"2021-03-17T00:39:21.226Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-03-17T05:18:43.882Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
