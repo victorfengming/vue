@@ -1,0 +1,2447 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>VueX · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-ancre-navigation/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../../Vue中Html和Markdown互相转换/" />
+    
+    
+    <link rel="prev" href="../../ElementUI中Upload如何批量上传/" />
+    
+
+    
+        <link rel="shortcut icon" href='../../../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../../../img/avator.png.icon.ico' type="image/x-icon">
+    
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../../">
+            
+                <a href="../../../">
+            
+                    
+                    README
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../../../01_Vue3-课程说明.html">
+            
+                <a href="../../../01_Vue3-课程说明.html">
+            
+                    
+                    课程说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../../../02_Vue3-认识TypeScript.html">
+            
+                <a href="../../../02_Vue3-认识TypeScript.html">
+            
+                    
+                    认识TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../../../03_Vue3-安装TypeScript.html">
+            
+                <a href="../../../03_Vue3-安装TypeScript.html">
+            
+                    
+                    安装TypeScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../../../04_Vue3-我的第一个TS代码.html">
+            
+                <a href="../../../04_Vue3-我的第一个TS代码.html">
+            
+                    
+                    我的第一个TS代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../../../05_Vue3-vscode中自动编译ts.html">
+            
+                <a href="../../../05_Vue3-vscode中自动编译ts.html">
+            
+                    
+                    vscode中自动编译ts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../../../06_Vue3-类型注解的解释.html">
+            
+                <a href="../../../06_Vue3-类型注解的解释.html">
+            
+                    
+                    类型注解的解释
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../../../07_Vue3-接口的演示.html">
+            
+                <a href="../../../07_Vue3-接口的演示.html">
+            
+                    
+                    接口的演示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../../../08_Vue3-类的演示.html">
+            
+                <a href="../../../08_Vue3-类的演示.html">
+            
+                    
+                    类的演示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../../../09_Vue3-webpack打包ts.html">
+            
+                <a href="../../../09_Vue3-webpack打包ts.html">
+            
+                    
+                    webpack打包ts
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" >
+            
+                <span>
+            
+                    
+                    基础类型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../../../10_Vue3-基础类型之布尔_数字_字符串.html">
+            
+                <a href="../../../10_Vue3-基础类型之布尔_数字_字符串.html">
+            
+                    
+                    布尔数字字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="../../../11_Vue3-基础类型注意问题.html">
+            
+                <a href="../../../11_Vue3-基础类型注意问题.html">
+            
+                    
+                    注意问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="../../../12_Vue3-基础类型之undefined和null.html">
+            
+                <a href="../../../12_Vue3-基础类型之undefined和null.html">
+            
+                    
+                    undefined和null
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="../../../13_Vue3-基础类型之数组和元组.html">
+            
+                <a href="../../../13_Vue3-基础类型之数组和元组.html">
+            
+                    
+                    数组和元组
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="../../../14_Vue3-基础类型之枚举.html">
+            
+                <a href="../../../14_Vue3-基础类型之枚举.html">
+            
+                    
+                    枚举
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="../../../15_Vue3-基础类型之any和void.html">
+            
+                <a href="../../../15_Vue3-基础类型之any和void.html">
+            
+                    
+                    any和void
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="../../../16_Vue3-基础类型之object.html">
+            
+                <a href="../../../16_Vue3-基础类型之object.html">
+            
+                    
+                    object
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="../../../17_Vue3-基础类型之联合类型和类型断言及类型推断.html">
+            
+                <a href="../../../17_Vue3-基础类型之联合类型和类型断言及类型推断.html">
+            
+                    
+                    联合类型和类型断言及类型推断
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../../../18_Vue3-整理代码文件.html">
+            
+                <a href="../../../18_Vue3-整理代码文件.html">
+            
+                    
+                    整理代码文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../../../19_Vue3-接口.html">
+            
+                <a href="../../../19_Vue3-接口.html">
+            
+                    
+                    接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../../../20_Vue3-函数类型.html">
+            
+                <a href="../../../20_Vue3-函数类型.html">
+            
+                    
+                    函数类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" >
+            
+                <span>
+            
+                    
+                    类类型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../../../21_Vue3-类类型.html">
+            
+                <a href="../../../21_Vue3-类类型.html">
+            
+                    
+                    类类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.2" data-path="../../../22_Vue3-类.html">
+            
+                <a href="../../../22_Vue3-类.html">
+            
+                    
+                    类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.3" data-path="../../../23_Vue3-继承.html">
+            
+                <a href="../../../23_Vue3-继承.html">
+            
+                    
+                    继承
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.4" data-path="../../../24_Vue3-多态.html">
+            
+                <a href="../../../24_Vue3-多态.html">
+            
+                    
+                    多态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.5" data-path="../../../25_Vue3-类中的成员修饰符.html">
+            
+                <a href="../../../25_Vue3-类中的成员修饰符.html">
+            
+                    
+                    类中的成员修饰符
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.6" data-path="../../../26_Vue3-readonly修饰符作用.html">
+            
+                <a href="../../../26_Vue3-readonly修饰符作用.html">
+            
+                    
+                    readonly修饰符作用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.7" data-path="../../../27_Vue3-存取器.html">
+            
+                <a href="../../../27_Vue3-存取器.html">
+            
+                    
+                    存取器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.8" data-path="../../../28_Vue3-静态成员.html">
+            
+                <a href="../../../28_Vue3-静态成员.html">
+            
+                    
+                    静态成员
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15.9" data-path="../../../29_Vue3-抽象类.html">
+            
+                <a href="../../../29_Vue3-抽象类.html">
+            
+                    
+                    抽象类
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" >
+            
+                <span>
+            
+                    
+                    函数及函数类型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../../../30_Vue3-函数及函数类型.html">
+            
+                <a href="../../../30_Vue3-函数及函数类型.html">
+            
+                    
+                    函数及函数类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.2" data-path="../../../31_Vue3-可选参数和默认参数.html">
+            
+                <a href="../../../31_Vue3-可选参数和默认参数.html">
+            
+                    
+                    可选参数和默认参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.3" data-path="../../../32_Vue3-剩余参数.html">
+            
+                <a href="../../../32_Vue3-剩余参数.html">
+            
+                    
+                    剩余参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16.4" data-path="../../../33_Vue3-函数重载.html">
+            
+                <a href="../../../33_Vue3-函数重载.html">
+            
+                    
+                    函数重载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" >
+            
+                <span>
+            
+                    
+                    泛型
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../../../34_Vue3-泛型.html">
+            
+                <a href="../../../34_Vue3-泛型.html">
+            
+                    
+                    泛型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.2" data-path="../../../35_Vue3-多个泛型参数的函数.html">
+            
+                <a href="../../../35_Vue3-多个泛型参数的函数.html">
+            
+                    
+                    多个泛型参数的函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.3" data-path="../../../36_Vue3-泛型接口.html">
+            
+                <a href="../../../36_Vue3-泛型接口.html">
+            
+                    
+                    泛型接口
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.4" data-path="../../../37_Vue3-泛型类.html">
+            
+                <a href="../../../37_Vue3-泛型类.html">
+            
+                    
+                    泛型类
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17.5" data-path="../../../38_Vue3-泛型约束.html">
+            
+                <a href="../../../38_Vue3-泛型约束.html">
+            
+                    
+                    泛型约束
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../../../39_Vue3-声明文件的说明.html">
+            
+                <a href="../../../39_Vue3-声明文件的说明.html">
+            
+                    
+                    声明文件的说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../../../40_Vue3-内置对象的简单说明.html">
+            
+                <a href="../../../40_Vue3-内置对象的简单说明.html">
+            
+                    
+                    内置对象的简单说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../../../41_Vue3-介绍Vue3.html">
+            
+                <a href="../../../41_Vue3-介绍Vue3.html">
+            
+                    
+                    介绍Vue3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../../../42_Vue3-两种方式创建vue3的项目.html">
+            
+                <a href="../../../42_Vue3-两种方式创建vue3的项目.html">
+            
+                    
+                    两种方式创建vue3的项目
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../../../43_Vue3-部分源码的分析.html">
+            
+                <a href="../../../43_Vue3-部分源码的分析.html">
+            
+                    
+                    部分源码的分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../../../44_Vue3-setup初次认识.html">
+            
+                <a href="../../../44_Vue3-setup初次认识.html">
+            
+                    
+                    setup初次认识
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../../../45_Vue3-setup和ref的基本使用.html">
+            
+                <a href="../../../45_Vue3-setup和ref的基本使用.html">
+            
+                    
+                    setup和ref的基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../../../46_Vue3-reactive的基本使用.html">
+            
+                <a href="../../../46_Vue3-reactive的基本使用.html">
+            
+                    
+                    reactive的基本使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../../../47_Vue3-操作代理数据影响界面更新渲染.html">
+            
+                <a href="../../../47_Vue3-操作代理数据影响界面更新渲染.html">
+            
+                    
+                    操作代理数据影响界面更新渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../../../48_Vue3-vue3响应式数据的原理.html">
+            
+                <a href="../../../48_Vue3-vue3响应式数据的原理.html">
+            
+                    
+                    vue3响应式数据的原理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../../../49_Vue3-响应式数据的测试.html">
+            
+                <a href="../../../49_Vue3-响应式数据的测试.html">
+            
+                    
+                    响应式数据的测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../../../50_Vue3-setup的执行时机问题.html">
+            
+                <a href="../../../50_Vue3-setup的执行时机问题.html">
+            
+                    
+                    setup的执行时机问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../../../51_Vue3-setup返回值的问题.html">
+            
+                <a href="../../../51_Vue3-setup返回值的问题.html">
+            
+                    
+                    setup返回值的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../../../52_Vue3-setup中的参数.html">
+            
+                <a href="../../../52_Vue3-setup中的参数.html">
+            
+                    
+                    setup中的参数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../../../53_Vue3-reactive和ref的细节问题.html">
+            
+                <a href="../../../53_Vue3-reactive和ref的细节问题.html">
+            
+                    
+                    reactive和ref的细节问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../../../54_Vue3-计算属性和监视.html">
+            
+                <a href="../../../54_Vue3-计算属性和监视.html">
+            
+                    
+                    计算属性和监视
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../../../55_Vue3-watch和watchEffect.html">
+            
+                <a href="../../../55_Vue3-watch和watchEffect.html">
+            
+                    
+                    watch和watchEffect
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../../../56_Vue3-生命周期对比.html">
+            
+                <a href="../../../56_Vue3-生命周期对比.html">
+            
+                    
+                    生命周期对比
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../../../57_Vue3-自定义hook函数.html">
+            
+                <a href="../../../57_Vue3-自定义hook函数.html">
+            
+                    
+                    自定义hook函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../../../58_Vue3-自定义hook函数.html">
+            
+                <a href="../../../58_Vue3-自定义hook函数.html">
+            
+                    
+                    自定义hook函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="../../../59_Vue3-toRefs的使用.html">
+            
+                <a href="../../../59_Vue3-toRefs的使用.html">
+            
+                    
+                    toRefs的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../../../60_Vue3-ref的另一个作用.html">
+            
+                <a href="../../../60_Vue3-ref的另一个作用.html">
+            
+                    
+                    ref的另一个作用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../../../61_Vue3-shallowReactive和shallowRef.html">
+            
+                <a href="../../../61_Vue3-shallowReactive和shallowRef.html">
+            
+                    
+                    shallowReactive和shallowRef
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.41" data-path="../../../62_Vue3-readonly和shallowReadonly.html">
+            
+                <a href="../../../62_Vue3-readonly和shallowReadonly.html">
+            
+                    
+                    readonly和shallowReadonly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.42" data-path="../../../63_Vue3-toRaw和markRaw.html">
+            
+                <a href="../../../63_Vue3-toRaw和markRaw.html">
+            
+                    
+                    toRaw和markRaw
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.43" data-path="../../../64_Vue3-toRef的特点及使用.html">
+            
+                <a href="../../../64_Vue3-toRef的特点及使用.html">
+            
+                    
+                    toRef的特点及使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.44" data-path="../../../65_Vue3-customRef的使用.html">
+            
+                <a href="../../../65_Vue3-customRef的使用.html">
+            
+                    
+                    customRef的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.45" data-path="../../../66_Vue3-provide和inject.html">
+            
+                <a href="../../../66_Vue3-provide和inject.html">
+            
+                    
+                    provide和inject
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.46" data-path="../../../67_Vue3-响应式数据的判断方法.html">
+            
+                <a href="../../../67_Vue3-响应式数据的判断方法.html">
+            
+                    
+                    响应式数据的判断方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47" >
+            
+                <span>
+            
+                    
+                    手写
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.47.1" data-path="../../../68_Vue3-手写shallowReactive和reactive.html">
+            
+                <a href="../../../68_Vue3-手写shallowReactive和reactive.html">
+            
+                    
+                    手写shallowReactive和reactive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47.2" data-path="../../../69_Vue3-手写shallowReadonly和readonly.html">
+            
+                <a href="../../../69_Vue3-手写shallowReadonly和readonly.html">
+            
+                    
+                    手写shallowReadonly和readonly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47.3" data-path="../../../70_Vue3-手写shallow和ref.html">
+            
+                <a href="../../../70_Vue3-手写shallow和ref.html">
+            
+                    
+                    手写shallow和ref
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.47.4" data-path="../../../71_Vue3-手写isRef和isReactive和isReadonly.html">
+            
+                <a href="../../../71_Vue3-手写isRef和isReactive和isReadonly.html">
+            
+                    
+                    手写isRef和isReactive和isReadonly
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.48" data-path="../../../72_Vue3-Fragment和Teleport组件介绍.html">
+            
+                <a href="../../../72_Vue3-Fragment和Teleport组件介绍.html">
+            
+                    
+                    Fragment和Teleport组件介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.49" data-path="../../../73_Vue3-Suspense组件介绍.html">
+            
+                <a href="../../../73_Vue3-Suspense组件介绍.html">
+            
+                    
+                    Suspense组件介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50" >
+            
+                <span>
+            
+                    
+                    todoList案例
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.50.1" data-path="../../../74_Vue3-todoList案例前奏.html">
+            
+                <a href="../../../74_Vue3-todoList案例前奏.html">
+            
+                    
+                    前奏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.2" data-path="../../../75_Vue3-todoList案例拆分组件.html">
+            
+                <a href="../../../75_Vue3-todoList案例拆分组件.html">
+            
+                    
+                    拆分组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.3" data-path="../../../76_Vue3_todoList案例遍历数据并展示.html">
+            
+                <a href="../../../76_Vue3_todoList案例遍历数据并展示.html">
+            
+                    
+                    遍历数据并展示
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.4" data-path="../../../77_Vue3-todoList案例添加数据.html">
+            
+                <a href="../../../77_Vue3-todoList案例添加数据.html">
+            
+                    
+                    添加数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.5" data-path="../../../78_Vue3-todoList案例高亮显示操作.html">
+            
+                <a href="../../../78_Vue3-todoList案例高亮显示操作.html">
+            
+                    
+                    高亮显示操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.6" data-path="../../../79_Vue3-todoList案例删除数据.html">
+            
+                <a href="../../../79_Vue3-todoList案例删除数据.html">
+            
+                    
+                    删除数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.7" data-path="../../../80_Vue3-todoList案例计算属性的方式改变选中状态.html">
+            
+                <a href="../../../80_Vue3-todoList案例计算属性的方式改变选中状态.html">
+            
+                    
+                    计算属性的方式改变选中状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.8" data-path="../../../81_Vue3-todoList案例全选和全不选操作.html">
+            
+                <a href="../../../81_Vue3-todoList案例全选和全不选操作.html">
+            
+                    
+                    全选和全不选操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.9" data-path="../../../82_Vue3-todoList案例清除所有选中的数据.html">
+            
+                <a href="../../../82_Vue3-todoList案例清除所有选中的数据.html">
+            
+                    
+                    清除所有选中的数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.50.10" data-path="../../../83_Vue3-todoList案例缓存数据.html">
+            
+                <a href="../../../83_Vue3-todoList案例缓存数据.html">
+            
+                    
+                    缓存数据
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.51" data-path="../../../84_Vue3-面试题简述.html">
+            
+                <a href="../../../84_Vue3-面试题简述.html">
+            
+                    
+                    面试题简述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52" >
+            
+                <span>
+            
+                    
+                    其他
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.52.1" data-path="../../Axios中拦截器的使用/">
+            
+                <a href="../../Axios中拦截器的使用/">
+            
+                    
+                    Axios中拦截器的使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.2" data-path="../../el-select因为绑定的值为整数而无法默认选择/">
+            
+                <a href="../../el-select因为绑定的值为整数而无法默认选择/">
+            
+                    
+                    el-select因为绑定的值为整数而无法默认选择
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.3" data-path="../../ElementUI中Upload如何批量上传/">
+            
+                <a href="../../ElementUI中Upload如何批量上传/">
+            
+                    
+                    ElementUI中Upload如何批量上传
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.52.4" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    VueX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.5" data-path="../../Vue中Html和Markdown互相转换/">
+            
+                <a href="../../Vue中Html和Markdown互相转换/">
+            
+                    
+                    Vue中Html和Markdown互相转换
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.6" data-path="../../Vue中input框自动聚焦/">
+            
+                <a href="../../Vue中input框自动聚焦/">
+            
+                    
+                    Vue中input框自动聚焦
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.7" data-path="../../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                <a href="../../Vue中使用Vue-cropper进行图片裁剪/">
+            
+                    
+                    Vue中使用Vue-cropper进行图片裁剪
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.8" data-path="../../Vue中对数组变化监听/">
+            
+                <a href="../../Vue中对数组变化监听/">
+            
+                    
+                    Vue中对数组变化监听
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.9" data-path="../../Vue中防止XSS脚本攻击/">
+            
+                <a href="../../Vue中防止XSS脚本攻击/">
+            
+                    
+                    Vue中防止XSS脚本攻击
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.10" data-path="../../Vue使用Echarts制作一个文章贡献度表/">
+            
+                <a href="../../Vue使用Echarts制作一个文章贡献度表/">
+            
+                    
+                    Vue使用Echarts制作一个文章贡献度表
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.11" data-path="../../Vue使用vue-count-to插件对数字显示美化/">
+            
+                <a href="../../Vue使用vue-count-to插件对数字显示美化/">
+            
+                    
+                    Vue使用vue-count-to插件对数字显示美化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.12" data-path="../../Vue内容页面SEO优化方案/">
+            
+                <a href="../../Vue内容页面SEO优化方案/">
+            
+                    
+                    Vue内容页面SEO优化方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.13" data-path="../../Vue制作一个评论模块/">
+            
+                <a href="../../Vue制作一个评论模块/">
+            
+                    
+                    Vue制作一个评论模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.14" data-path="../../Vue动态计算Table表格的高度/">
+            
+                <a href="../../Vue动态计算Table表格的高度/">
+            
+                    
+                    Vue动态计算Table表格的高度
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.15" data-path="../../Vue对Element中的e-tag添加@click事件无效/">
+            
+                <a href="../../Vue对Element中的e-tag添加@click事件无效/">
+            
+                    
+                    Vue对Element中的e-tag添加@click事件无效
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.16" data-path="../../vue打包后的dist文件如何启动测试/">
+            
+                <a href="../../vue打包后的dist文件如何启动测试/">
+            
+                    
+                    vue打包后的dist文件如何启动测试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.17" data-path="../../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                <a href="../../Vue记一次诡异的错误Uncaught_TypeError/">
+            
+                    
+                    Vue记一次诡异的错误Uncaught_TypeError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.18" data-path="../../Vue项目中引入markdown编辑器vditor/">
+            
+                <a href="../../Vue项目中引入markdown编辑器vditor/">
+            
+                    
+                    Vue项目中引入markdown编辑器vditor
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.19" data-path="../../Vue项目使用阿里巴巴矢量图标库/">
+            
+                <a href="../../Vue项目使用阿里巴巴矢量图标库/">
+            
+                    
+                    Vue项目使用阿里巴巴矢量图标库
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.20" data-path="../../Vue项目使用预渲染解决SEO优化问题/">
+            
+                <a href="../../Vue项目使用预渲染解决SEO优化问题/">
+            
+                    
+                    Vue项目使用预渲染解决SEO优化问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.21" data-path="../../Vue项目如何关闭Eslint校验/">
+            
+                <a href="../../Vue项目如何关闭Eslint校验/">
+            
+                    
+                    Vue项目如何关闭Eslint校验
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.22" data-path="../../Vue项目引入CDN加速/">
+            
+                <a href="../../Vue项目引入CDN加速/">
+            
+                    
+                    Vue项目引入CDN加速
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.23" data-path="../../Vue项目引入侧边导航栏/">
+            
+                <a href="../../Vue项目引入侧边导航栏/">
+            
+                    
+                    Vue项目引入侧边导航栏
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.24" data-path="../../Vue项目打包后动态配置解决方案/">
+            
+                <a href="../../Vue项目打包后动态配置解决方案/">
+            
+                    
+                    Vue项目打包后动态配置解决方案
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.25" data-path="../../使用Vuex进行两个页面逻辑交互/">
+            
+                <a href="../../使用Vuex进行两个页面逻辑交互/">
+            
+                    
+                    使用Vuex进行两个页面逻辑交互
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.52.26" data-path="../../解决Vue项目打包后js文件过大的问题/">
+            
+                <a href="../../解决Vue项目打包后js文件过大的问题/">
+            
+                    
+                    解决Vue项目打包后js文件过大的问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../../.." >VueX</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <html><head></head><body><h2 id="vuex&#x5B66;&#x4E60;"><a name="vuex&#x5B66;&#x4E60;" class="anchor-navigation-ex-anchor" href="#vuex&#x5B66;&#x4E60;"><i class="fa fa-link" aria-hidden="true"></i></a>VueX&#x5B66;&#x4E60;</h2>
+<h3 id="&#x4F7F;&#x7528;vue-cli&#x521B;&#x5EFA;vue&#x9879;&#x76EE;"><a name="&#x4F7F;&#x7528;vue-cli&#x521B;&#x5EFA;vue&#x9879;&#x76EE;" class="anchor-navigation-ex-anchor" href="#&#x4F7F;&#x7528;vue-cli&#x521B;&#x5EFA;vue&#x9879;&#x76EE;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4F7F;&#x7528;vue-cli&#x521B;&#x5EFA;vue&#x9879;&#x76EE;</h3>
+<pre><code class="lang-bash"><span class="hljs-comment"># &#x5168;&#x5C40;&#x5B89;&#x88C5;&#x811A;&#x624B;&#x67B6;</span>
+npm install -g @vue/cli-init
+<span class="hljs-comment"># &#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;</span>
+vue init webpack-simple my-project
+<span class="hljs-comment"># &#x5B89;&#x88C5;vuex&#x4F9D;&#x8D56;</span>
+npm install vuex
+</code></pre>
+<h3 id="&#x4FEE;&#x6539;mainjs"><a name="&#x4FEE;&#x6539;mainjs" class="anchor-navigation-ex-anchor" href="#&#x4FEE;&#x6539;mainjs"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4FEE;&#x6539;main.js</h3>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5F15;&#x5165;vuex</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Vuex <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vuex&apos;</span>
+
+<span class="hljs-comment">// &#x8BA9;Vuex&#x751F;&#x6548;</span>
+Vue.use(Vuex)
+</code></pre>
+<p>&#x7136;&#x540E;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5168;&#x5C40;&#x7684;store&#xFF0C;&#x7528;&#x4E8E;&#x72B6;&#x6001;&#x7684;&#x5B58;&#x50A8;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> store = <span class="hljs-keyword">new</span> Vuex.Store({
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x72B6;&#x6001;</span>
+  state: {
+    count: <span class="hljs-number">0</span>
+  },
+  <span class="hljs-comment">// getters&#x662F;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF0C;&#x4F8B;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x62FC;&#x63A5;&#xFF0C;&#x6216;&#x8005;&#x8FC7;&#x6EE4;</span>
+  getters: {
+    <span class="hljs-comment">//&#x7C7B;&#x4F3C;&#x4E8E;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;</span>
+    myCount(state) {
+      <span class="hljs-keyword">return</span> <span class="hljs-string">`current count is <span class="hljs-subst">${state.count}</span>`</span>
+    }
+  },
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+    <span class="hljs-comment">// &#x589E;&#x52A0;&#x7684;&#x65B9;&#x6CD5;</span>
+    increment(state) {
+      state.count += <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;</span>
+    decrement(state) {
+      state.count -= <span class="hljs-number">1</span>
+    }
+  },
+  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+    <span class="hljs-comment">// &#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;</span>
+    myIncrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6BD4;&#x5982;&#x4ECE;&#x540E;&#x53F0;&#x53D6;&#x6570;&#x636E;&#x7B49;</span>
+      context.commit(<span class="hljs-string">&apos;increment&apos;</span>)
+    },
+    myDecrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6BD4;&#x5982;&#x4ECE;&#x540E;&#x53F0;&#x53D6;&#x6570;&#x636E;&#x7B49;</span>
+      context.commit(<span class="hljs-string">&quot;decrement&quot;</span>)
+    }
+  }
+})
+</code></pre>
+<p>&#x4ECE;&#x521B;&#x5EFA;&#x7684;store&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x91CC;&#x9762;&#x5305;&#x542B;&#x4E86;&#x56DB;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#xFF1A;state&#xFF0C;getters&#xFF0C;mutations&#xFF0C;actions</p>
+<ul>
+<li>stat&#x662F;&#x5168;&#x5C40;&#x72B6;&#x6001;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5B58;&#x50A8;&#x7684;&#x5185;&#x5BB9;</li>
+<li>getters&#xFF1A;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x7684;get&#x65B9;&#x6CD5;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;java&#x91CC;&#x9762;&#x7684;get set&#x4E00;&#x6837;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x5728;getter&#x91CC;&#x9762;&#x7F16;&#x5199;&#x4EE3;&#x7801;&#xFF0C;&#x5B8C;&#x6210;&#x4E00;&#x4E9B;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF1A;&#x4F8B;&#x5982;&#x6570;&#x636E;&#x62FC;&#x63A5;&#x548C;&#x6570;&#x636E;&#x7684;&#x8FC7;&#x6EE4;</li>
+<li>mutations&#xFF1A;&#x82F1;&#x6587;&#x610F;&#x601D;&#x662F;&#x53D8;&#x6362;&#x7684;&#x610F;&#x601D;&#xFF0C;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x5B83;&#x770B;&#x6210;&#x662F;methods&#xFF0C;&#x5728;&#x91CC;&#x9762;&#x7F16;&#x5199;&#x65B9;&#x6CD5;&#xFF0C;&#x7528;&#x6765;&#x64CD;&#x4F5C;state&#x4E2D;&#x7684;&#x503C;&#x8FDB;&#x884C;&#x53D8;&#x5316;&#xFF0C;&#x6BD4;&#x5982;&#x8FD9;&#x91CC;&#x6211;&#x4EEC;&#x6709;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;increment&#x548C;decrement&#xFF0C;&#x5206;&#x522B;&#x5BF9;&#x5E94;&#x7684;&#x589E;&#x52A0;&#x548C;&#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x91CC;&#x9762;&#x7684;&#x65B9;&#x6CD5;&#x9700;&#x8981;&#x4F20;&#x5165;&#x4E00;&#x4E2A;state&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;state.count&#x5728;&#x5BF9;&#x6570;&#x503C;&#x8FDB;&#x884C;&#x6539;&#x53D8;</li>
+<li>actions&#xFF1A;&#x662F;&#x7528;&#x6765;&#x5B58;&#x5728;&#x4E00;&#x4E9B;&#x52A8;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</li>
+</ul>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x8981;&#x5C06;state&#x548C;vue&#x5B9E;&#x4F8B;&#x5173;&#x8054;&#x8D77;&#x6765;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">new</span> Vue({
+  el: <span class="hljs-string">&apos;#app&apos;</span>,
+  render: h =&gt; h(App),
+  <span class="hljs-comment">//&#x9700;&#x8981;&#x5C06;store&#x548C;vue&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x5173;&#x8054;&#xFF0C;&#x8FD9;&#x91CC;&#x5C06;&#x5176;&#x4F20;&#x9012;&#x8FDB;&#x53BB;</span>
+  store
+})
+</code></pre>
+<p>&#x5B8C;&#x6574;&#x7684;main.js&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./App.vue&apos;</span>
+<span class="hljs-keyword">import</span> Vuex <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vuex&apos;</span>
+
+<span class="hljs-comment">// &#x8BA9;Vuex&#x751F;&#x6548;</span>
+Vue.use(Vuex)
+
+<span class="hljs-keyword">const</span> store = <span class="hljs-keyword">new</span> Vuex.Store({
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x72B6;&#x6001;</span>
+  state: {
+    count: <span class="hljs-number">0</span>
+  },
+  <span class="hljs-comment">// getters&#x662F;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF0C;&#x4F8B;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x62FC;&#x63A5;&#xFF0C;&#x6216;&#x8005;&#x8FC7;&#x6EE4;</span>
+  getters: {
+    <span class="hljs-comment">//&#x7C7B;&#x4F3C;&#x4E8E;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;</span>
+    myCount(state) {
+      <span class="hljs-keyword">return</span> <span class="hljs-string">`current count is <span class="hljs-subst">${state.count}</span>`</span>
+    }
+  },
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+    <span class="hljs-comment">// &#x589E;&#x52A0;&#x7684;&#x65B9;&#x6CD5;</span>
+    increment(state) {
+      state.count += <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;</span>
+    decrement(state) {
+      state.count -= <span class="hljs-number">1</span>
+    }
+  },
+  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+    <span class="hljs-comment">// &#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;</span>
+    myIncrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6BD4;&#x5982;&#x4ECE;&#x540E;&#x53F0;&#x53D6;&#x6570;&#x636E;&#x7B49;</span>
+      context.commit(<span class="hljs-string">&apos;increment&apos;</span>)
+    },
+    myDecrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6BD4;&#x5982;&#x4ECE;&#x540E;&#x53F0;&#x53D6;&#x6570;&#x636E;&#x7B49;</span>
+      context.commit(<span class="hljs-string">&quot;decrement&quot;</span>)
+    }
+  }
+})
+
+<span class="hljs-keyword">new</span> Vue({
+  el: <span class="hljs-string">&apos;#app&apos;</span>,
+  render: h =&gt; h(App),
+  <span class="hljs-comment">//&#x9700;&#x8981;&#x5C06;store&#x548C;vue&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x5173;&#x8054;&#xFF0C;&#x8FD9;&#x91CC;&#x5C06;&#x5176;&#x4F20;&#x9012;&#x8FDB;&#x53BB;</span>
+  store
+})
+</code></pre>
+<h3 id="&#x4FEE;&#x6539;appvue&#x9875;&#x9762;"><a name="&#x4FEE;&#x6539;appvue&#x9875;&#x9762;" class="anchor-navigation-ex-anchor" href="#&#x4FEE;&#x6539;appvue&#x9875;&#x9762;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4FEE;&#x6539;App.vue&#x9875;&#x9762;</h3>
+<p>&#x5728;vue&#x9875;&#x9762;&#x4E2D;vuex</p>
+<pre><code> import {mapState, mapGetters, mapMutations, mapActions} from &apos;vuex&apos;;
+</code></pre><p>mapState &#x548C; mapMutations &#x5C31;&#x76F8;&#x5F53;&#x4E8E;&#x628A;&#x521A;&#x521A;&#x6211;&#x4EEC;&#x5728;main.js&#x9875;&#x9762;&#x4E2D;&#x521B;&#x5EFA;&#x7684;store&#x91CC;&#x9762;&#x7684;state&#x3001;mutations&#x3001;actions&#x90FD;&#x4F20;&#x9012;&#x8FC7;&#x6765;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x901A;&#x8FC7;...&#x8FDB;&#x884C;&#x89E3;&#x6790;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x4F7F;&#x7528;</p>
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5728;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4E2D;&#xFF0C;&#x5C06;mapState&#x4E2D;&#x7684;count&#x62FF;&#x51FA;&#x6765;</p>
+<pre><code class="lang-javascript">  computed: {
+    <span class="hljs-comment">// &#x5728;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;mapState([&apos;count&apos;])&#x83B7;&#x53D6;&#x7684;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;...&#x89E3;&#x6790;</span>
+    ...mapState([<span class="hljs-string">&apos;count&apos;</span>]),
+    ...mapGetters([<span class="hljs-string">&apos;myCount&apos;</span>])
+  },
+</code></pre>
+<p>1&#xFF09;&#x7136;&#x540E;&#x6211;&#x4EEC;&#x5728;methods&#x4E2D;&#xFF0C;&#x5C06;mapMutations&#x4E2D;&#x7684;increment&#x548C;decrement&#x65B9;&#x6CD5;&#x89E3;&#x6790;&#x51FA;&#x6765;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">//&#x62FF;&#x5230;vuex&#x4E2D;&#x7684;&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;</span>
+...mapMutations([<span class="hljs-string">&quot;increment&quot;</span>, <span class="hljs-string">&quot;decrement&quot;</span>]),
+</code></pre>
+<p>2&#xFF09;&#x6216;&#x8005;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#xFF0C;&#x901A;&#x8FC7; this.$store.commit(&quot;increment&quot;); &#x8C03;&#x7528;increment&#x65B9;&#x6CD5;&#x548C;decrement&#x65B9;&#x6CD5;</p>
+<pre><code class="lang-javascript">  methods: {
+    incrementClick: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-comment">// &#x901A;&#x8FC7;store&#xFF0C;&#x6765;&#x8C03;&#x7528;increment</span>
+      <span class="hljs-keyword">this</span>.$store.commit(<span class="hljs-string">&quot;increment&quot;</span>);
+    },
+    decrementClick: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">this</span>.$store.commit(<span class="hljs-string">&quot;decrement&quot;</span>);
+    },
+  }
+</code></pre>
+<p>&#x4E0A;&#x8FF0;&#x6240;&#x8BF4;&#x7684;1&#x548C;2&#x90FD;&#x662F;&#x4E00;&#x6837;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x9700;&#x8981;&#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x5373;&#x53EF;&#x3002;</p>
+<p>&#x4F46;&#x662F;&#x5728;&#x6B63;&#x5E38;&#x7684;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x76F4;&#x63A5;&#x64CD;&#x4F5C;mutations&#xFF0C;&#x800C;&#x662F;&#x901A;&#x8FC7;actions&#x6765;&#x5B8C;&#x6210;&#x7684;</p>
+<p>&#x6211;&#x4EEC;&#x4E5F;&#x662F;&#x901A;&#x8FC7;&#x5728;methods&#x4E2D;&#x5BF9;store&#x4E2D;&#x7684;actions&#x8FDB;&#x884C;&#x89E3;&#x6790;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x96BE;&#x9053;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;</span>
+...mapActions([<span class="hljs-string">&apos;myIncrement&apos;</span>, <span class="hljs-string">&quot;myDecrement&quot;</span>]),
+</code></pre>
+<p>&#x7136;&#x540E;&#x901A;&#x8FC7;&#x65B9;&#x6CD5;&#x6765;&#x8C03;&#x7528;</p>
+<pre><code>    methods: {
+      // &#x96BE;&#x9053;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+      ...mapActions([&apos;myIncrement&apos;, &quot;myDecrement&quot;]),
+      incrementClick: function () {
+        this.myIncrement();
+
+      },
+      decrementClick: function () {
+        this.myDecrement();
+      },
+    }
+</code></pre><p>&#x6700;&#x7EC8;&#x7684;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-vue">&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;button @click=&quot;incrementClick&quot;&gt;+&lt;/button&gt;
+    &lt;button @click=&quot;decrementClick&quot;&gt;-&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+
+  // vuex&#x4E2D;&#x6709;mapState&#x65B9;&#x6CD5;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x5B83;&#x7684;getset&#x65B9;&#x6CD5;
+  import {mapState, mapMutations, mapActions} from &apos;vuex&apos;;
+
+  export default {
+    name: &apos;app&apos;,
+    data() {
+      return {
+        msg: &apos;Welcome to Your Vue.js App&apos;
+      }
+    },
+    computed: {
+      // &#x5728;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;mapState([&apos;count&apos;])&#x83B7;&#x53D6;&#x7684;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;...&#x89E3;&#x6790;
+      ...mapState([&apos;count&apos;])
+    },
+    methods: {
+
+      //&#x62FF;&#x5230;vuex&#x4E2D;&#x7684;&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;
+      ...mapMutations([&quot;increment&quot;, &quot;decrement&quot;]),
+      // &#x96BE;&#x9053;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+      ...mapActions([&apos;myIncrement&apos;, &quot;myDecrement&quot;]),
+      incrementClick: function () {
+        // &#x901A;&#x8FC7;store&#xFF0C;&#x6765;&#x8C03;&#x7528;increment
+        //this.$store.commit(&quot;increment&quot;);
+        this.myIncrement();
+      },
+      decrementClick: function () {
+        //this.$store.commit(&quot;decrement&quot;);
+
+        this.myDecrement();
+
+      },
+    }
+  }
+&lt;/script&gt;
+
+&lt;style&gt;
+
+&lt;/style&gt;
+</code></pre>
+<h3 id="&#x8FD0;&#x884C;&#x7684;&#x7ED3;&#x679C;"><a name="&#x8FD0;&#x884C;&#x7684;&#x7ED3;&#x679C;" class="anchor-navigation-ex-anchor" href="#&#x8FD0;&#x884C;&#x7684;&#x7ED3;&#x679C;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8FD0;&#x884C;&#x7684;&#x7ED3;&#x679C;</h3>
+<p>&#x5728;&#x8FD9;&#x4E4B;&#x524D;&#xFF0C;&#x6211;&#x63A8;&#x8350;&#x4E00;&#x4E2A;vue&#x7684;chrome &#x63D2;&#x4EF6;&#xFF0C;&#x5B83;&#x80FD;&#x591F;&#x8BA9;&#x6211;&#x4EEC;&#x770B;&#x5230;&#x6211;&#x4EEC;&#x64CD;&#x4F5C;state&#x65F6;&#x5019;&#x7684;&#x6570;&#x636E;&#x53D8;&#x5316;</p>
+<p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x91CD;&#x542F;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x7136;&#x540E;F12&#x540E;&#xFF0C;&#x80FD;&#x5728;&#x8C03;&#x8BD5;&#x9875;&#x9762;&#x5C31;&#x80FD;&#x591F;&#x770B;&#x5230;vue&#x8FD9;&#x4E2A;&#x9009;&#x9879;&#x5361;&#x4E86;&#xFF0C;&#x4E0B;&#x9762;&#x770B;demo&#x8FD0;&#x884C;&#x7684;&#x7ED3;&#x679C;&#xFF1A;</p>
+<p><a href="images/111.gif" data-lightbox="7294c8d8-5abb-4935-ad17-e59072810c23" data-title=""><img src="images/111.gif" alt=""></a></p>
+<h3 id="&#x5C0F;&#x7ED3;"><a name="&#x5C0F;&#x7ED3;" class="anchor-navigation-ex-anchor" href="#&#x5C0F;&#x7ED3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5C0F;&#x7ED3;</h3>
+<ul>
+<li>&#x5173;&#x4E8E;mutations&#x548C;actions&#x91CC;&#x9762;&#x7684;&#x65B9;&#x6CD5;&#x662F;&#x5982;&#x4F55;&#x7F16;&#x5199;&#x7684;&#xFF0C;&#x6216;&#x8005;&#x8BF4;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5E94;&#x8BE5;&#x7F16;&#x5199;mutation&#x4E2D;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x5E94;&#x8BE5;&#x7F16;&#x5199;action&#x4E2D;&#x7684;&#x51FD;&#x6570;&#xFF1F;</li>
+</ul>
+<p>&#x4E00;&#x822C;&#x6765;&#x8BF4;&#xFF0C;&#x6211;&#x4EEC;&#x662F;&#x5C06;&#x7B80;&#x5355;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;state&#x6570;&#x503C;&#x7684;&#x51FD;&#x6570;&#xFF0C;&#x5199;&#x5728;mutations&#x4E2D;&#xFF0C;&#x7136;&#x540E;&#x628A;&#x4E00;&#x4E9B;&#x590D;&#x6742;&#x7684;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x5199;&#x5728;actions&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x5728;actions&#x4E2D;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x6539;&#x53D8;state&#xFF0C;&#x90A3;&#x5C31;&#x901A;&#x8FC7;&#x4F20;&#x5165;&#x7684;context&#x8C03;&#x7528;mutation&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x6765;&#x5B9E;&#x73B0;&#x72B6;&#x6001;&#x7684;&#x6539;&#x53D8;&#x3002;</p>
+<ul>
+<li>&#x5173;&#x4E8E;&#x4E00;&#x4E9B;&#x9875;&#x9762;&#x76F8;&#x5173;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x8981;&#x653E;&#x5230;action&#x6765;&#xFF0C;&#x800C;&#x662F;&#x5C3D;&#x91CF;&#x662F;&#x903B;&#x8F91;&#x76F8;&#x5173;&#x7684;</li>
+</ul>
+<h3 id="mutations&#x548C;actions&#x81EA;&#x5B9A;&#x4E49;&#x4F20;&#x53C2;"><a name="mutations&#x548C;actions&#x81EA;&#x5B9A;&#x4E49;&#x4F20;&#x53C2;" class="anchor-navigation-ex-anchor" href="#mutations&#x548C;actions&#x81EA;&#x5B9A;&#x4E49;&#x4F20;&#x53C2;"><i class="fa fa-link" aria-hidden="true"></i></a>mutations&#x548C;actions&#x81EA;&#x5B9A;&#x4E49;&#x4F20;&#x53C2;</h3>
+<p>&#x6709;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4ECE;&#x9875;&#x9762;&#x81EA;&#x5B9A;&#x4E49;&#x4F20;&#x9012;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#x8FC7;&#x6765;&#xFF0C;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x7684;mutations&#x548C;actions&#x5C31;&#x9700;&#x8981;&#x63A5;&#x53D7;&#x989D;&#x5916;&#x7684;&#x53C2;&#x6570;&#x4E86;&#xFF0C;&#x8FD9;&#x4E5F;&#x662F;&#x53EF;&#x4EE5;&#x7684;</p>
+<p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x5148;&#x770B;main.js&#x4E2D;mutations&#x548C;actions&#x5982;&#x4F55;&#x7F16;&#x5199;</p>
+<p>&#x9996;&#x5148;&#x662F;mutations&#xFF1A;</p>
+<pre><code class="lang-javascript">  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+    <span class="hljs-comment">// &#x589E;&#x52A0;&#x7684;&#x65B9;&#x6CD5;</span>
+    increment(state) {
+      state.count += <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;</span>
+    decrement(state) {
+      state.count -= <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x4F20;&#x5165;&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570;</span>
+    incrementN(state, N) {
+      state.count += N
+    }
+  },
+</code></pre>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x5728;&#x7F16;&#x5199;mutations&#xFF1A;&#x540C;&#x6837;&#x4E5F;&#x589E;&#x52A0;&#x4E00;&#x4E2A;&#x53C2;&#x6570;N</p>
+<pre><code class="lang-javascript">  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+    <span class="hljs-comment">// &#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;</span>
+    myIncrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x8BA1;&#x7B97;</span>
+      context.commit(<span class="hljs-string">&apos;increment&apos;</span>)
+    },
+    myIncrementN: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context, N</span>) </span>{
+      <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x5728;&#x63D0;&#x4EA4;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</span>
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;&#x4F20;&#x9012;&#x8FC7;&#x6765;&#x7684;N&quot;</span>, N);
+      context.commit(<span class="hljs-string">&apos;incrementN&apos;</span>, N)
+    },
+    myDecrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x72B6;&#x6001;</span>
+      context.commit(<span class="hljs-string">&quot;decrement&quot;</span>)
+    }
+  }
+</code></pre>
+<p>&#x7136;&#x540E;&#x6211;&#x4EEC;&#x56DE;&#x5230;App.vue&#x6587;&#x4EF6;&#x4E0B;&#xFF0C;&#x5728;methods&#xFF0C;&#x589E;&#x52A0;&#x6211;&#x4EEC;&#x521A;&#x521A;&#x7F16;&#x5199;&#x7684;actions</p>
+<pre><code class="lang-javascript">    methods: {
+      <span class="hljs-comment">// &#x62FF;&#x5230;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;</span>
+      ...mapActions([<span class="hljs-string">&apos;myIncrement&apos;</span>, <span class="hljs-string">&quot;myDecrement&quot;</span>, <span class="hljs-string">&quot;myIncrementN&quot;</span>]),
+      incrementClick: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-comment">// &#x901A;&#x8FC7;store&#xFF0C;&#x6765;&#x8C03;&#x7528;increment</span>
+        <span class="hljs-comment">//this.$store.commit(&quot;increment&quot;);</span>
+
+        <span class="hljs-keyword">this</span>.myIncrement();
+
+      },
+      decrementClick: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+        <span class="hljs-comment">//this.$store.commit(&quot;decrement&quot;);</span>
+
+        <span class="hljs-keyword">this</span>.myDecrement();
+
+      },
+      incrementClickN: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+        <span class="hljs-keyword">let</span> N = <span class="hljs-number">10</span>;
+        <span class="hljs-keyword">this</span>.myIncrementN(N);
+      },
+    }
+</code></pre>
+<p>&#x5B8C;&#x6574;&#x7684;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>main.js&#xFF1A;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./App.vue&apos;</span>
+<span class="hljs-keyword">import</span> Vuex <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vuex&apos;</span>
+
+<span class="hljs-comment">// &#x8BA9;Vuex&#x751F;&#x6548;</span>
+Vue.use(Vuex)
+
+<span class="hljs-keyword">const</span> store = <span class="hljs-keyword">new</span> Vuex.Store({
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x72B6;&#x6001;</span>
+  state: {
+    count: <span class="hljs-number">0</span>
+  },
+  <span class="hljs-comment">// getters&#x662F;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF0C;&#x4F8B;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x62FC;&#x63A5;&#xFF0C;&#x6216;&#x8005;&#x8FC7;&#x6EE4;</span>
+  getters: {
+
+  },
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+    <span class="hljs-comment">// &#x589E;&#x52A0;&#x7684;&#x65B9;&#x6CD5;</span>
+    increment(state) {
+      state.count += <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;</span>
+    decrement(state) {
+      state.count -= <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x4F20;&#x5165;&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570;</span>
+    incrementN(state, N) {
+      state.count += N
+    }
+  },
+  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+    <span class="hljs-comment">// &#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;</span>
+    myIncrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x8BA1;&#x7B97;</span>
+      context.commit(<span class="hljs-string">&apos;increment&apos;</span>)
+    },
+    myIncrementN: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context, N</span>) </span>{
+      <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x5728;&#x63D0;&#x4EA4;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</span>
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;&#x4F20;&#x9012;&#x8FC7;&#x6765;&#x7684;N&quot;</span>, N);
+      context.commit(<span class="hljs-string">&apos;incrementN&apos;</span>, N)
+    },
+    myDecrement: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x72B6;&#x6001;</span>
+      context.commit(<span class="hljs-string">&quot;decrement&quot;</span>)
+    }
+  }
+})
+
+<span class="hljs-keyword">new</span> Vue({
+  el: <span class="hljs-string">&apos;#app&apos;</span>,
+  render: h =&gt; h(App),
+  <span class="hljs-comment">//&#x9700;&#x8981;&#x5C06;store&#x548C;vue&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x5173;&#x8054;&#xFF0C;&#x8FD9;&#x91CC;&#x5C06;&#x5176;&#x4F20;&#x9012;&#x8FDB;&#x53BB;</span>
+  store
+})
+</code></pre>
+<p>App.vue&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-vue">&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;button @click=&quot;incrementClick&quot;&gt;+&lt;/button&gt;
+    &lt;button @click=&quot;decrementClick&quot;&gt;-&lt;/button&gt;
+    &lt;button @click=&quot;incrementClickN&quot;&gt;+N&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+
+  // vuex&#x4E2D;&#x6709;mapState&#x65B9;&#x6CD5;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x5B83;&#x7684;getset&#x65B9;&#x6CD5;
+  import {mapState, mapMutations, mapActions} from &apos;vuex&apos;;
+
+  export default {
+    name: &apos;app&apos;,
+    data() {
+      return {
+        msg: &apos;Welcome to Your Vue.js App&apos;
+      }
+    },
+    computed: {
+      // &#x5728;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;mapState([&apos;count&apos;])&#x83B7;&#x53D6;&#x7684;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;...&#x89E3;&#x6790;
+      ...mapState([&apos;count&apos;])
+    },
+    methods: {
+
+      //&#x62FF;&#x5230;vuex&#x4E2D;&#x7684;&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;
+      ...mapMutations([&quot;increment&quot;, &quot;decrement&quot;]),
+      // &#x62FF;&#x5230;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+      ...mapActions([&apos;myIncrement&apos;, &quot;myDecrement&quot;, &quot;myIncrementN&quot;]),
+      incrementClick: function () {
+        // &#x901A;&#x8FC7;store&#xFF0C;&#x6765;&#x8C03;&#x7528;increment
+        //this.$store.commit(&quot;increment&quot;);
+
+        this.myIncrement();
+
+      },
+      decrementClick: function () {
+        //this.$store.commit(&quot;decrement&quot;);
+
+        this.myDecrement();
+
+      },
+      incrementClickN: function() {
+        let N = 10;
+        this.myIncrementN(N);
+      },
+    }
+  }
+&lt;/script&gt;
+
+&lt;style&gt;
+
+&lt;/style&gt;
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x518D;&#x6B21;&#x67E5;&#x770B;&#x8FD0;&#x884C;&#x7ED3;&#x679C;&#xFF1A;</p>
+<p><a href="images/222.gif" data-lightbox="9671e285-8e6b-4c0d-9e78-aba6e6cc7749" data-title=""><img src="images/222.gif" alt=""></a></p>
+<h3 id="&#x5C06;mainjs&#x4E2D;&#x7684;store&#x63D0;&#x53D6;&#x51FA;&#x6765;"><a name="&#x5C06;mainjs&#x4E2D;&#x7684;store&#x63D0;&#x53D6;&#x51FA;&#x6765;" class="anchor-navigation-ex-anchor" href="#&#x5C06;mainjs&#x4E2D;&#x7684;store&#x63D0;&#x53D6;&#x51FA;&#x6765;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5C06;main.js&#x4E2D;&#x7684;store&#x63D0;&#x53D6;&#x51FA;&#x6765;</h3>
+<p>&#x4E00;&#x822C;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x7684;store&#x5B9A;&#x4E49;&#x4E0D;&#x4F1A;&#x5199;&#x5728;main.js&#x91CC;&#x9762;&#xFF0C;&#x4E00;&#x822C;&#x4F1A;&#x6709;&#x4E13;&#x95E8;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x5939;&#x7528;&#x4E8E;&#x5B58;&#x50A8;store&#x7684;</p>
+<p>&#x6211;&#x4EEC;&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;store&#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x7136;&#x540E;&#x65B0;&#x5EFA;&#x56DB;&#x4E2A;&#x6587;&#x4EF6;&#xFF0C;&#x5206;&#x522B;&#x4E3A; index.js&#xFF0C;mutation-types.js&#xFF0C;app.js&#xFF0C;user.js</p>
+<p><a href="E:\MarkDown&#x5B66;&#x4E60;&#x7B14;&#x8BB0;\LearningNotes\Vue\VueX\images\image-20191222144248663.png" data-lightbox="ca438bd8-5d1e-4682-b29a-ca71a4802a87" data-title="image-20191222144248663" target="_blank"><img src="E:\MarkDown&#x5B66;&#x4E60;&#x7B14;&#x8BB0;\LearningNotes\Vue\VueX\images\image-20191222144248663.png" alt="image-20191222144248663"></a></p>
+<p>&#x5176;&#x4E2D;mutation-types.js&#x662F;&#x5C06;&#x6211;&#x4EEC;mutations&#x4E2D;&#x7684;&#x65B9;&#x6CD5;&#x540D;&#x7ED9;&#x5B9A;&#x4E49;&#x6210;&#x5E38;&#x91CF;&#xFF0C;&#x5185;&#x5BB9;&#x5982;&#x4E0B;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT =  <span class="hljs-string">&quot;increment&quot;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> INCREMENT_N =  <span class="hljs-string">&quot;incrementN&quot;</span>
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> DECREMENT =  <span class="hljs-string">&quot;decrement&quot;</span>
+</code></pre>
+<p>&#x5176;&#x4E2D;app.js&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x521A;&#x521A;&#x5728;main&#x91CC;&#x9762;&#x5B9A;&#x4E49;&#x7684; store&#xFF0C;&#x6211;&#x4EEC;&#x7ED9;&#x5B83;&#x91CD;&#x65B0;&#x53D6;&#x4E2A;&#x540D;&#x5B57;&#x53EB;app</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> {INCREMENT, DECREMENT, INCREMENT_N} <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;./mutation-types&quot;</span>;
+
+<span class="hljs-keyword">const</span> app = {
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x72B6;&#x6001;</span>
+  state: {
+    count: <span class="hljs-number">0</span>
+  },
+  <span class="hljs-comment">// getters&#x662F;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF0C;&#x4F8B;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x62FC;&#x63A5;&#xFF0C;&#x6216;&#x8005;&#x8FC7;&#x6EE4;</span>
+  getters: {
+    <span class="hljs-comment">//&#x7C7B;&#x4F3C;&#x4E8E;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;</span>
+    myCount(state) {
+      <span class="hljs-keyword">return</span> <span class="hljs-string">`current count is <span class="hljs-subst">${state.count}</span>`</span>
+    }
+  },
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+    <span class="hljs-comment">// &#x589E;&#x52A0;&#x7684;&#x65B9;&#x6CD5;</span>
+    [INCREMENT](state) {
+      state.count += <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x51CF;&#x5C11;&#x7684;&#x65B9;&#x6CD5;</span>
+    [DECREMENT](state) {
+      state.count -= <span class="hljs-number">1</span>
+    },
+    <span class="hljs-comment">// &#x4F20;&#x5165;&#x81EA;&#x5B9A;&#x4E49;&#x53C2;&#x6570;</span>
+    [INCREMENT_N](state, N) {
+      state.count += N
+    }
+  },
+  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+    <span class="hljs-comment">// &#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;</span>
+    myIncrement: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x8BA1;&#x7B97;</span>
+      context.commit(INCREMENT)
+    },
+    myIncrementN: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">context, N</span>) </span>{
+      <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x5728;&#x63D0;&#x4EA4;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x5728;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</span>
+      <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&quot;&#x4F20;&#x9012;&#x8FC7;&#x6765;&#x7684;N&quot;</span>, N);
+      context.commit(INCREMENT_N, N)
+    },
+    myDecrement: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">context</span>) </span>{
+      <span class="hljs-comment">// &#x8FDB;&#x884C;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x72B6;&#x6001;</span>
+      context.commit(DECREMENT)
+    }
+  }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> app
+</code></pre>
+<p>&#x7136;&#x540E;&#x9879;&#x76EE;&#x4E2D;&#x53EF;&#x80FD;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;store&#xFF0C;&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x767B;&#x5F55;&#x6CE8;&#x518C;&#xFF0C;&#x5728;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;user store&#x7528;&#x4E8E;&#x5B58;&#x50A8;&#x767B;&#x5F55;&#x6CE8;&#x518C;&#x7684;&#x4FE1;&#x606F;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">const</span> user = {
+  <span class="hljs-comment">// &#x5168;&#x5C40;&#x72B6;&#x6001;</span>
+  state: {
+    userInfo: {}
+  },
+  <span class="hljs-comment">// getters&#x662F;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5305;&#x88C5;&#xFF0C;&#x4F8B;&#x5982;&#x5BF9;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x62FC;&#x63A5;&#xFF0C;&#x6216;&#x8005;&#x8FC7;&#x6EE4;</span>
+  getters: {
+
+  },
+  <span class="hljs-comment">// &#x5982;&#x679C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x66F4;&#x6539;store&#x4E2D;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x901A;&#x8FC7;mutations&#x6765;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;</span>
+  mutations: {
+
+  },
+  <span class="hljs-comment">// actions&#x662F;&#x6211;&#x4EEC;&#x5B9A;&#x4E49;&#x7684;&#x4E00;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x5C11;&#x4F1A;&#x76F4;&#x63A5;&#x8C03;&#x7528;mutation&#x65B9;&#x6CD5;&#x6765;&#x6539;&#x53D8;state</span>
+  actions: {
+
+  }
+}
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> user
+</code></pre>
+<p>&#x6700;&#x540E;&#x6211;&#x4EEC;&#x4F7F;&#x7528;index.js&#x7BA1;&#x7406;&#x8FD9;&#x4E24;&#x4E2A;store</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>
+<span class="hljs-keyword">import</span> Vuex <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vuex&apos;</span>
+<span class="hljs-keyword">import</span> app <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./app&apos;</span>
+<span class="hljs-keyword">import</span> user <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./user&apos;</span>
+
+<span class="hljs-comment">//&#x8BA9;vuex&#x751F;&#x6548;</span>
+Vue.use(Vuex)
+
+<span class="hljs-keyword">const</span> store = <span class="hljs-keyword">new</span> Vuex.Store({
+
+  <span class="hljs-comment">// &#x5C06;app&#x548C;user&#x653E;&#x5728;store&#x4E2D;</span>
+  modules: {
+    app, user
+  }
+})
+
+<span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span>  store
+</code></pre>
+<p>&#x7136;&#x540E;&#x4E0B;&#x9762;&#x5C31;&#x662F; main.js&#x7684;&#x5185;&#x5BB9;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x5728;&#x62BD;&#x53D6;&#x5B8C; const store&#x540E;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x628A; /store/index.js&#x5F15;&#x5165;&#x5373;&#x53EF;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">import</span> Vue <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;vue&apos;</span>
+<span class="hljs-keyword">import</span> App <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./App.vue&apos;</span>
+<span class="hljs-keyword">import</span> store <span class="hljs-keyword">from</span> <span class="hljs-string">&apos;./store&apos;</span>
+
+
+<span class="hljs-keyword">new</span> Vue({
+  el: <span class="hljs-string">&apos;#app&apos;</span>,
+  render: h =&gt; h(App),
+  <span class="hljs-comment">//&#x9700;&#x8981;&#x5C06;store&#x548C;vue&#x5B9E;&#x4F8B;&#x8FDB;&#x884C;&#x5173;&#x8054;&#xFF0C;&#x8FD9;&#x91CC;&#x5C06;&#x5176;&#x4F20;&#x9012;&#x8FDB;&#x53BB;</span>
+  store
+})
+</code></pre>
+<p>&#x7136;&#x540E;&#x5C31;&#x662F;&#x4FEE;&#x6539;APP.vue&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A;&#x6211;&#x4EEC;&#x5206;&#x6A21;&#x5757;&#x8FDB;&#x884C;&#x7BA1;&#x7406;&#x4E86;&#xFF0C;&#x6240;&#x4EE5;&#x5728;&#x83B7;&#x53D6;count&#x7684;&#x65F6;&#x5019;&#x6709;&#x4E9B;&#x533A;&#x522B;</p>
+<pre><code class="lang-javascript">...mapState({
+   count: state =&gt; {
+    <span class="hljs-keyword">return</span> state.app.count
+   }
+}),
+</code></pre>
+<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x9009;&#x4E2D;state&#x4E0B;&#x9762;&#x7684;app&#x6A21;&#x5757;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x83B7;&#x53D6;count&#x5C5E;&#x6027;</p>
+<p>&#x6700;&#x540E;&#x9644;&#x4E0A;&#x4FEE;&#x6539;&#x540E;&#x7684;App.vue</p>
+<pre><code class="lang-vue">&lt;template&gt;
+  &lt;div id=&quot;app&quot;&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;h1&gt;&lt;/h1&gt;
+    &lt;button @click=&quot;incrementClick&quot;&gt;+&lt;/button&gt;
+    &lt;button @click=&quot;decrementClick&quot;&gt;-&lt;/button&gt;
+    &lt;button @click=&quot;incrementClickN&quot;&gt;+N&lt;/button&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+&lt;script&gt;
+
+  // vuex&#x4E2D;&#x6709;mapState&#x65B9;&#x6CD5;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x4F7F;&#x7528;&#x5B83;&#x7684;getset&#x65B9;&#x6CD5;
+  import {mapState, mapGetters, mapMutations, mapActions} from &apos;vuex&apos;;
+  import {INCREMENT, DECREMENT, INCREMENT_N} from &quot;./store/mutation-types&quot;
+
+  export default {
+    name: &apos;app&apos;,
+    data() {
+      return {
+        msg: &apos;Welcome to Your Vue.js App&apos;
+      }
+    },
+    computed: {
+      // &#x5728;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x901A;&#x8FC7;mapState([&apos;count&apos;])&#x83B7;&#x53D6;&#x7684;&#x662F;&#x6570;&#x7EC4;&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;...&#x89E3;&#x6790;
+      // ...mapState([&apos;count&apos;]),
+      // ...mapGetters([&apos;myCount&apos;])
+
+      ...mapState({
+        count: state =&gt; {
+          return state.app.count
+        }
+      }),
+      ...mapGetters([&apos;myCount&apos;])
+    },
+    methods: {
+
+      //&#x62FF;&#x5230;vuex&#x4E2D;&#x7684;&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x65B9;&#x6CD5;
+      ...mapMutations([INCREMENT, DECREMENT]),
+      // &#x62FF;&#x5230;vuex&#x4E2D;actions&#x5199;&#x7684;&#x4E24;&#x4E2A;&#x81EA;&#x5B9A;&#x4E49;&#x65B9;&#x6CD5;
+      ...mapActions([&apos;myIncrement&apos;, &quot;myDecrement&quot;, &quot;myIncrementN&quot;]),
+
+      incrementClick: function () {
+        // &#x901A;&#x8FC7;store&#xFF0C;&#x6765;&#x8C03;&#x7528;increment
+        // this.$store.commit(&quot;increment&quot;);
+
+        this.myIncrement();
+
+      },
+      decrementClick: function () {
+        // this.$store.commit(&quot;decrement&quot;);
+
+        this.myDecrement();
+
+      },
+      incrementClickN: function() {
+        let N = 10;
+        this.myIncrementN(N);
+      },
+    }
+  }
+&lt;/script&gt;
+
+&lt;style&gt;
+
+&lt;/style&gt;
+</code></pre>
+<p></p><hr><div id="vcomments"></div><script src="//unpkg.com/valine/dist/Valine.min.js"></script><script>new Valine({el: "#vcomments",appId: 'CHjATxRcQrXst8eJrdwX0vjz-gzGzoHsz',appKey: 'nWerbwV2WMAxOEmAMkJKvXzs',placeholder: 'Just go go',avatar: '',meta: undefined,pageSize: 10,lang: 'zh-CN',recordIP: false})</script><p></p>
+</body></html>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../../ElementUI中Upload如何批量上传/" class="navigation navigation-prev " aria-label="Previous page: ElementUI中Upload如何批量上传">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../../Vue中Html和Markdown互相转换/" class="navigation navigation-next " aria-label="Next page: Vue中Html和Markdown互相转换">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"VueX","level":"1.52.4","depth":2,"next":{"title":"Vue中Html和Markdown互相转换","level":"1.52.5","depth":2,"path":"moxi/Vue中Html和Markdown互相转换/README.md","ref":"moxi/Vue中Html和Markdown互相转换/README.md","articles":[]},"previous":{"title":"ElementUI中Upload如何批量上传","level":"1.52.3","depth":2,"path":"moxi/ElementUI中Upload如何批量上传/README.md","ref":"moxi/ElementUI中Upload如何批量上传/README.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["code","valine","hide-element","chapter-fold","expandable-chapters","favicon","lightbox","splitter","-lunr","pageview-count","ancre-navigation"],"pluginsConfig":{"chapter-fold":{},"splitter":{},"search":{},"code":{"copyButtons":true},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"favicon":{"shortcut":"./img/avator.png.icon.ico","bookmark":"./img/avator.png.icon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"pageview-count":{},"ancre-navigation":{"showLevel":true,"associatedWithSummary":true,"mode":"float","printLog":false,"multipleH1":true,"float":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""},"pageTop":{"showLevelIcon":false,"level1Icon":"","level2Icon":"","level3Icon":""}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{},"valine":{"placeholder":"Just go go","avatar":"","pageSize":10,"lang":"zh-CN","recordIP":false,"appId":"CHjATxRcQrXst8eJrdwX0vjz-gzGzoHsz","appKey":"nWerbwV2WMAxOEmAMkJKvXzs"}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"moxi/VueX/Vuex学习指南-实现一个计数器/README.md","mtime":"2021-03-17T00:39:21.211Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-04-02T05:11:55.773Z"},"basePath":"../../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../../gitbook/gitbook.js"></script>
+    <script src="../../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-chapter-fold/chapter-fold.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
