@@ -1,7 +1,7 @@
 const timeStamp = new Date().getTime()
 
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue-quasar-manage/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue/' : '/',
   devServer: {
     port: 8868
     // proxy: {
